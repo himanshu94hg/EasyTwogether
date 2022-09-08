@@ -1,0 +1,78 @@
+.loginbtn{
+    height: 50px;
+    width: 22rem;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px !important;
+    margin: 1rem 0 1rem !important;
+    background-color: rgba(73, 70, 126, 1) !important;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+  }
+
+
+  .loginbtn:hover {
+    box-shadow: 0px 0px 5px 1px black;
+    transition: 0.5s ease-in-out;
+  }
+  .loginbtn::after {
+    background: black;
+    transition: 2s ease-in-out;
+  }
+  .loginbtn:active:after {
+    transition: 0s;
+  }
+
+  .textfeilddiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 22rem;
+    height: 7.7rem;
+  }
+
+
+  .googlebtn{
+    background-color: #2D3748 !important;
+    width: 22rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    border-radius: 5px !important;
+  }
+
+  .googlebtn > div{
+    background-color: transparent !important;
+  }
+
+
+  .logindiv{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .fssl01{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  @media (max-width:960px) {
+    .fssl02{
+      min-height: 74vh;
+      justify-content: center;
+    }
+    .textfeilddiv{
+      width: 19rem;
+    }
+    .loginbtn{
+      width: 19rem;
+    }
+    .googlebtn{
+      width: 19rem !important;
+    }
+  }

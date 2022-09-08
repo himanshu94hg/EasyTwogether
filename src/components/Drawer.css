@@ -1,0 +1,76 @@
+.fssd01{
+    background: rgba(73, 70, 126, 0.95);
+    border-radius: 28px;
+margin: 1% 2%;
+}
+
+.fssd06{
+    width: 100%;
+}
+
+.fssd02{
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 24px;
+font-weight: 700;
+color: #fff;
+
+}
+
+.fssd03{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+
+text-align: center;
+color: #fff;
+
+}
+
+.fssd04 {
+    height: 50px;
+    width: 22rem;
+    left: 0px;
+    top: 0px;
+    border-radius: 77px !important;
+    margin: 1rem 0 1rem !important;
+    background-color: #fff !important;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #111 !important;
+    }
+
+
+
+    .fssd05{
+        color: #fff;
+        font-family: poppins;
+    }
+
+    .fssd05{
+        display: flex;
+     }
+
+@media (max-width: 960px) {
+    .fssd02{
+    font-size: 18px;
+    }
+    .fssd03{
+        font-size: 17px;
+    }
+    .fssd04 {
+        width: 19rem;
+    }
+    
+    .fssd01{
+        border-radius: 77px;
+    }
+}
+
+
+
+

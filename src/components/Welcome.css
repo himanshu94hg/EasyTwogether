@@ -1,0 +1,55 @@
+.fssw01{
+    width: 95% !important;
+    margin-top: 5%;
+}
+.fssw02{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.fssw03{
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    background-color: rgba(73, 70, 126, 1) !important;
+    border-radius: 77px !important;
+    width: 342px !important;
+    /* margin: 11% 0 0 !important; */
+    height: 60px;
+}
+
+.fssw04{
+   
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    /* line-height: 47px; */
+    letter-spacing: 0em;
+    /* text-align: left; */
+    margin-top: 6rem;
+
+}
+
+.fssw05{
+    
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+
+.fssw06{
+    /* min-height: 82vh; */
+    align-items: center;
+}
+
+.fssw07{
+    display: flex;
+    justify-content: center;
+}
